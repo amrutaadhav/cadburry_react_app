@@ -1,4 +1,5 @@
-import { ctrateRoot } from "react-dom/client";
+import { createRoot } from "react-dom/client";
 
-const root = createRootd(document.getElementById)(("root"));
+const root = createRoot(document.getElementById("root"));
+
 root.render(<h1>sweet cadburry</h1>)
